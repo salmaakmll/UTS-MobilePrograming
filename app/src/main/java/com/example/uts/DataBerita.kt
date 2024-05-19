@@ -1,4 +1,4 @@
-package com.example.uts.model
+package com.example.uts
 
 data class DataBerita(
     val title: String,

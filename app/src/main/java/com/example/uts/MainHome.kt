@@ -1,5 +1,6 @@
 package com.example.uts
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.view.Menu
@@ -50,9 +51,11 @@ class MainHome : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        setSupportActionBar(binding.toolbar)
         return when (item.itemId) {
             R.id.action_Tambah -> {
-                // Handle settings action
+                val intent = Intent(this, TambahData::class.java)
+                startActivity(intent)
                 true
             }
 
