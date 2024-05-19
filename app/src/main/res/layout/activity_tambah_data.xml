@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/isiNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM" />
+
+    <EditText
+        android:id="@+id/isiNamaA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Alumni" />
+
+    <EditText
+        android:id="@+id/isiTempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat lahir" />
+
+    <EditText
+        android:id="@+id/isiTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal lahir"
+        />
+
+    <EditText
+        android:id="@+id/isiAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+      />
+    <EditText
+        android:id="@+id/isiAgama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Agama"
+        />
+    <EditText
+        android:id="@+id/isiTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tlp/HP"
+        />
+
+    <EditText
+        android:id="@+id/isiTahunM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Masuk"
+        />
+
+    <EditText
+        android:id="@+id/isiTahunl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun lulus"
+        />
+
+    <EditText
+        android:id="@+id/isiPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pekerjaan"
+        />
+
+    <EditText
+        android:id="@+id/isiJabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jabatan"        />
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+
+</LinearLayout>
